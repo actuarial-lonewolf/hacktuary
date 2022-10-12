@@ -18,6 +18,10 @@ Therefore, until the code is fixed to accomodate for the new packages, please ru
 `install.packages("https://cran.r-project.org/src/contrib/Archive/fontawesome/fontawesome_0.2.2.tar.gz", repos=NULL, type="source")`  
 `install.packages("https://cran.r-project.org/src/contrib/Archive/flexdashboard/flexdashboard_0.5.2.tar.gz", repos=NULL, type="source")`
 
+-OR- proceed with fixes...  
+
+1) We need to modify icon names as seen below:  
+
 [Icons modification:](https://fontawesome.com/docs/web/setup/upgrade/whats-changed#icons-renamed-in-version-6)  
 
 | Old Name  | New Name |
@@ -44,3 +48,7 @@ Therefore, until the code is fixed to accomodate for the new packages, please ru
 | compress-alt | down-left-and-up-right-to-center |
 | random | shuffle |
 | redo | arrow-rotate-right |
+  
+2) We need to add the following code in the CSS style section.
+  
+  ` .value-box{ color:inherit; }`
