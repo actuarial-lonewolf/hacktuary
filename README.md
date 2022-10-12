@@ -13,8 +13,8 @@ This will be my repo for the challenge.
 This shiny application was built between April and August 2022.  
 While it is normal to have R packages being routinely updated, it appears that two updated packages are breaking some display parameters and icons.
 
-Therefore, until the code is fixed to accomodate for the new packages, please run this shiny application using:
+Therefore, until the code is fixed to accomodate for the new packages, please run this shiny application using:   
 
-`install_version("fontawesome", version = "0.2.2", repos = "http://cran.us.r-project.org")`  
-`install_version("flexdashboard", version = "0.5.2", repos = "http://cran.us.r-project.org")`
+`install.packages("https://cran.r-project.org/src/contrib/Archive/fontawesome/fontawesome_0.2.2.tar.gz", repos=NULL, type="source")`  
+`install.packages("https://cran.r-project.org/src/contrib/Archive/flexdashboard/flexdashboard_0.5.2.tar.gz", repos=NULL, type="source")`
 
