@@ -15,6 +15,6 @@ While it is normal to have R packages being routinely updated, it appears that t
 
 Therefore, until the code is fixed to accomodate for the new packages, please run this shiny application using:
 
-`install_version("fontawesome", version = "0.2.2", repos = "http://cran.us.r-project.org")`
+`install_version("fontawesome", version = "0.2.2", repos = "http://cran.us.r-project.org")`  
 `install_version("flexdashboard", version = "0.5.2", repos = "http://cran.us.r-project.org")`
 
