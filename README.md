@@ -10,9 +10,11 @@ This will be my repo for the challenge.
 
 ## Note:  
   
-The Map section in the app requires an active internet connection as it pulls data from OSRM and/or Google.
+The Map section in the app requires an active *internet connection* as it pulls data from OSRM and/or Google.
 For a better user experience, please provide a Google Maps API key in the upper section of the code.
-A Google Maps API key will provide auto-complete feature and better search results.
+A Google Maps API key will provide auto-complete feature and better search results.  
+  
+The file lgb.fit.MODELv6.txt.7z needs to be decompressed into lgb.fit.MODELv6.txt.  
 
 
 ## Important Note: R Packages 
