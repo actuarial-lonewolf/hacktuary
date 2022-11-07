@@ -8,19 +8,19 @@ More info: https://www.casact.org/article/casualty-actuarial-society-announces-2
 This will be my repo for the challenge.
 
 
+## Note:  
+  
+The Map section in the app requires an active internet connection as it pulls data from OSRM and/or Google.
+For a better user experience, please provide a Google Maps API key in the upper section of the code.
+A Google Maps API key will provide auto-complete feature and better search results.
+
+
 ## Important Note: R Packages 
 
 This shiny application was built between April and August 2022.  
 While it is normal to have R packages being routinely updated, it appears that two updated packages are breaking some display parameters and icons.
 
-Therefore, until the code is fixed to accomodate for the new packages, please run this shiny application using:   
-
-`install.packages("https://cran.r-project.org/src/contrib/Archive/fontawesome/fontawesome_0.2.2.tar.gz", repos=NULL, type="source")`  
-`install.packages("https://cran.r-project.org/src/contrib/Archive/flexdashboard/flexdashboard_0.5.2.tar.gz", repos=NULL, type="source")`
-
--OR- proceed with fixes...  
-
-1) We need to modify icon names as seen below:  
+The code has been fixed to accomodate for the new packages.
 
 [Icons modification:](https://fontawesome.com/docs/web/setup/upgrade/whats-changed#icons-renamed-in-version-6)  
 
