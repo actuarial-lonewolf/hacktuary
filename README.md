@@ -51,6 +51,6 @@ The code has been fixed to accomodate for the new packages.
 | random | shuffle |
 | redo | arrow-rotate-right |
   
-2) We need to add the following code in the CSS style section.
+2) Added the following code in the CSS style section.
   
   ` .value-box{ color:inherit; }`
