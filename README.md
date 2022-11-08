@@ -5,7 +5,7 @@ using publicly available data and featuring interactive elements”*
 
 More info: https://www.casact.org/article/casualty-actuarial-society-announces-2022-cas-hacktuary-challenge
 
-Application can be viewed [here](https://hacktuary.shinyapps.io/toolkit/).
+Application can be viewed [here](https://hacktuary.shinyapps.io/toolkit/).  
 For more information, please consult the Cover Note pdf above.
 
 
